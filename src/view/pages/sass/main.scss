@@ -1,0 +1,18 @@
+// Base
+@import "./base/reset";
+@import "./base/base";
+
+// Blocks main Page
+@import "./blocks/nav";
+@import "./blocks/orderCallback";
+@import "./blocks/aboutMe";      
+@import "./blocks/team"; 
+@import "./blocks/cooperation";
+@import "./blocks/services";  
+
+//auth
+@import "./blocks/auth/auth" ;
+
+
+//request
+@import "./blocks/req/req.scss";

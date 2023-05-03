@@ -1,0 +1,88 @@
+.nav {
+  padding-top: 42px;
+  padding-bottom: 137px;
+}
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  img {
+    padding-right: 15px;
+  }
+  .text__logo {
+    h1 {
+      font-family: "Playfair Display";
+      font-weight: 800;
+      font-size: 22px;
+      // line-height: 18px;
+      color: #f64c72;
+    }
+    p {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+      color: #fff;
+    }
+  }
+}
+.navigation {
+  ul {
+    display: flex;
+  }
+  li {
+    cursor: pointer;
+    padding-right: 30px;
+    color: #fff;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  li:last-child {
+    padding-right: 0;
+  }
+}
+.authentication {
+  display: flex;
+  align-items: center;
+  .sign__up {
+    cursor: pointer;
+    width: 284px;
+    height: 46px;
+    background-color: #f64c72;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 18px;
+    color: #fff;
+    text-align: center;
+    padding-top: 12px;
+    
+  }
+  .sign__in {
+    cursor: pointer;
+    width: 122px;
+    height: 46px;
+    border: 3px solid #f64c72;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 18px;
+    color:#F64C72;
+    margin-left: 66px;
+    padding-top: 10px;
+  }
+
+}

@@ -1,0 +1,49 @@
+.cooperation {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  h2 {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 66px;
+    line-height: 88px;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+}
+
+.cooperation__blocks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.cooperation__block {
+  display: flex;
+  flex-direction: column;
+  width: 328px;
+  text-align: center;
+  align-items: center;
+  h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 152%;
+    color: #ffffff;
+    margin-bottom: 7px;
+  }
+  p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 152%;
+    color: #ffffff;
+  }
+  img {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 10px;
+    
+  }
+}
