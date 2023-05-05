@@ -1,38 +1,35 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { PATHS } from '../../../domain/paths/paths';
 
 export const Request = () => {
-  return (
-    <div class="request">
-      <div class="request__block">
-        <div class="img__leff__blockReq">
-          <img
-            src="../img/auth__right.png"
-            alt="картинка слева"
-            class="img__left__req"
-          />
-        </div>
+    return (
+        <div className="request">
+            <div className="request__block">
+                <div className="img__leff__blockReq">
+                    <img
+                        src="../img/auth__right.png"
+                        alt="картинка слева"
+                        className="img__left__req"
+                    />
+                </div>
 
-        <div class="form__req">
-          <div class="head__data__righh-item">
-            <a href="../index.html"> На главную страницу </a>
-          </div>
+                <div className="form__req">
+                    <div className="head__data__righh-item">
+                        <Link to={PATHS.HOME}> На главную страницу </Link>
+                    </div>
 
-          <form class="form__req" action="НАПИШИ СЮДА САМ ЧЕ ТО">
-            <textarea
-              class="description"
-              id="description"
-              name="description"
-            ></textarea>
-            <input
-              class=""
-              type="text"
-              id="login"
-              placeholder="Оставьте заявку"
-            />
-            <div class="buttonCallback">Отправить заявку</div>
-          </form>
+                    <form className="form__req" action="НАПИШИ СЮДА САМ ЧЕ ТО">
+                        <textarea
+                            className="description"
+                            id="description"
+                            name="description"
+                        ></textarea>
+                        <input className="" type="text" id="login" placeholder="Оставьте заявку" />
+                        <div className="buttonCallback">Отправить заявку</div>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  )
-}
+    );
+};
